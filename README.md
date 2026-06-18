@@ -47,14 +47,14 @@ Para garantir a precisão das análises e alimentar o ecossistema do NotebookLM,
 
 ---
 
-## 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+## 3. Engenharia de Prompts e "Cicatrizes" 
 
 Esta seção documenta o processo de refinamento das instruções aplicadas à inteligência artificial para extrair dados técnicos profundos e evitar respostas genéricas superficiais.
 
 ### 🛑 Cicatriz 1: O Prompt Superficial (Abordagem Direta)
 * **Prompt Testado:** `"Me explica a diferença entre batimento binaural e monaural."`
 * **Resposta Obtida:** Uma explicação genérica de dicionário: *"Binaurais usam sons diferentes em cada ouvido e monaurais misturam os sons antes."*
-* **Dificuldade Encontrada (Troubleshooting):** O modelo ignorou a biologia por trás da percepção (onde o cérebro processa o estímulo) e não detalhou os requisitos de hardware.
+* **Dificuldade Encontrada:** O modelo ignorou a biologia por trás da percepção (onde o cérebro processa o estímulo) e não detalhou os requisitos de hardware.
 * **Solução:** Aplicar restrição de formato através de uma tabela comparativa multifatorial.
 
 ### ✅ Evolução 1: Prompt de Papel (Roleplay) com Estrutura de Tabela
@@ -64,7 +64,7 @@ Esta seção documenta o processo de refinamento das instruções aplicadas à i
 
 ### 🛑 Cicatriz 2: Alucinação de Generalização em Ruídos Coloridos
 * **Prompt Testado:** `"Como o ruído marrom ajuda no tratamento farmacológico do TDAH?"`
-* **Dificuldade Encontrada (Troubleshooting):** O modelo começou a discorrer sobre medicamentos que não constavam no documento.
+* **Dificuldade Encontrada:** O modelo começou a discorrer sobre medicamentos que não constavam no documento.
 * **Solução (Prompt de Ancoragem):** O prompt foi reescrito exigindo a teoria específica presente no texto: *"Explique o papel do ruído marrom no TDAH sob a ótica estrita da Teoria da Estimulação Ideal (Optimal Arousal Theory) e do fenômeno de Ressonância Estocástica descritos no texto. Não cite medicamentos."*
 
 ---
