@@ -52,7 +52,7 @@ Para garantir a precisão das análises e alimentar o ecossistema do NotebookLM,
 Esta seção documenta o processo de refinamento das instruções aplicadas à inteligência artificial para extrair dados técnicos profundos e evitar respostas genéricas superficiais.
 
 ### 🛑 Cicatriz 1: O Prompt Superficial (Abordagem Direta)
-* **Prompt Testado:** `"Me explica a diferença entre batimento binaural e monaurol."`
+* **Prompt Testado:** `"Me explica a diferença entre batimento binaural e monaural."`
 * **Resposta Obtida:** Uma explicação genérica de dicionário: *"Binaurais usam sons diferentes em cada ouvido e monaurais misturam os sons antes."*
 * **Dificuldade Encontrada (Troubleshooting):** O modelo ignorou a biologia por trás da percepção (onde o cérebro processa o estímulo) e não detalhou os requisitos de hardware.
 * **Solução:** Aplicar restrição de formato através de uma tabela comparativa multifatorial.
