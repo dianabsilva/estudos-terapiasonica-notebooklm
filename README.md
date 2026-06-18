@@ -1,12 +1,12 @@
 # Frequências Sonoras: Ruídos, Foco e Neurociência Aplicada
-Este repositório documenta a organização, metodologia e consolidação teórica do estudo sobre **Arrastamento de Ondas Cerebrais Auditivas (BWE - *Auditory Brainwave Entrainment*)** e o impacto de ruídos coloridos no desempenho cognitivo e na regulação emocional. O projeto foi desenvolvido utilizando o Google NotebookLM como assistente analítico para sintetizar evidências clínicas e estruturar um ecossistema de aprendizado de alta fidelidade técnica.
+Este repositório documenta a organização, metodologia e consolidação teórica do estudo sobre o impacto de ruídos coloridos no desempenho cognitivo e na regulação emocional. O projeto foi desenvolvido utilizando o Google NotebookLM como assistente analítico para sintetizar evidências clínicas e estruturar um ecossistema de aprendizado de alta fidelidade técnica.
 
 ---
 
 ## 1. Contexto e Objetivos
 
 ### Contexto
-O Arrastamento de Ondas Cerebrais Auditivas (BWE) é uma metodologia não invasiva que modula a atividade cortical por meio da exposição do cérebro a frequências sonoras específicas. Baseado no fenômeno de *bloqueio de fase neural* (*neural phase-locking*), a atividade elétrica cerebral alinha-se naturalmente ao ritmo de estímulos auditivos externos. Este campo conecta a neurociência fundamental à engenharia acústica, oferecendo soluções viáveis para otimização de foco, redução de ansiedade e reabilitação clínica.
+É uma metodologia não invasiva que modula a atividade cortical por meio da exposição do cérebro a frequências sonoras específicas. Baseado no fenômeno de *bloqueio de fase neural*, a atividade elétrica cerebral alinha-se naturalmente ao ritmo de estímulos auditivos externos. Este campo conecta a neurociência fundamental à engenharia acústica, oferecendo soluções viáveis para otimização de foco, redução de ansiedade e reabilitação clínica.
 
 ### Objetivos de Estudo
 * **Compreender os Mecanismos Técnicos:** Diferenciar as abordagens de estimulação por batimentos binaurais, monaurais e tons isocrônicos.
@@ -91,7 +91,7 @@ Diferentes frequências de ruído são categorizadas por cores com base no espec
 * **Ruído Rosa:** Possui um perfil sonoro mais natural (como o som de chuva) e é utilizado para sincronizar oscilações cerebrais lentas, reforçando a memória durante o sono.
 * **Ruídos Azul e Verde:** O azul foca em frequências altas para alívio da insônia, enquanto o verde está atrelado a sons da natureza para promover calmaria com atenção aos detalhes.
 
-#### Evidências Clínicas e Sistemas de Circuito Fechado (*Closed-Loop*)
+#### Evidências Clínicas e Sistemas de Circuito Fechado
 1. **Personalização e IAF:** Protocolos estáticos falham frequentemente. A eficácia aumenta drasticamente quando os estímulos são calibrados de acordo com a **Frequência Alfa Individual (IAF)** do usuário ou guiados por EEG em tempo real.
 2. **Indução Rápida de Relaxamento:** Sistemas orientados por EEG conseguem guiar 100% dos participantes a estados de relaxamento (< 8 Hz) e 96% a estados profundos de baixa frequência (< 4 Hz) em um intervalo de 7 a 9 minutos.
 3. **Desempenho Cognitivo:** Testes como o *Novelty Encoding Task* (NET) demonstraram tempos de reação significativamente mais rápidos (p = 0.039) para recuperação de informações, induzindo um estado de "alerta relaxado".
@@ -111,7 +111,7 @@ Diferentes frequências de ruído são categorizadas por cores com base no espec
 
 ### 4.3 Prompts Reutilizáveis para Revisões Futuras
 
-Copie e cole os blocos abaixo no seu NotebookLM para conduzir sessões de revisão ativa sobre o material:
+Copie e cole os blocos abaixo no NotebookLM para conduzir sessões de revisão ativa sobre o material:
 
 ```markdown
 # Prompt 1: Flashcards de Fixação Psicoacústica
