@@ -1,5 +1,4 @@
-# Avanços em Arrastamento de Ondas Cerebrais Auditivas e Terapia Sônica
-
+# Frequências Sonoras: Ruídos, Foco e Neurociência Aplicada
 Este repositório documenta a organização, metodologia e consolidação teórica do estudo sobre **Arrastamento de Ondas Cerebrais Auditivas (BWE - *Auditory Brainwave Entrainment*)** e o impacto de ruídos coloridos no desempenho cognitivo e na regulação emocional. O projeto foi desenvolvido utilizando o Google NotebookLM como assistente analítico para sintetizar evidências clínicas e estruturar um ecossistema de aprendizado de alta fidelidade técnica.
 
 ---
